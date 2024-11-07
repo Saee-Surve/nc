@@ -25,3 +25,19 @@ def run_client():
 
 if __name__ == "__main__":
     run_client()
+
+
+
+
+
+
+
+'''
+Connection-Oriented Protocol: TCP establishes a connection between sender and receiver before data is transmitted, using a three-way handshake (SYN, SYN-ACK, ACK) to ensure both ends are ready for data transfer.
+
+Reliable Data Transfer: TCP ensures that data packets are delivered in sequence and without errors. If any packet is lost or damaged, TCP will retransmit it.
+
+Flow Control: TCP manages the rate at which data is sent between sender and receiver, preventing network congestion and ensuring the receiver is not overwhelmed.
+
+Error Checking and Recovery: TCP uses checksums to verify data integrity and requests retransmission if errors are detected.
+'''
